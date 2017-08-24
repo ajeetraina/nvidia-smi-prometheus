@@ -11,6 +11,12 @@ This allows you to keep track of your GPU usage.
 cabal build
 ```
 
+# If you want to test it out inside Docker container, follow the below steps:
+
+```
+$nvidia-docker pull ajeetraina/nvidia-exporter
+```
+
 # Development
 
 Need: hpack to generate the cabal file from package.yaml
